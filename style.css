@@ -1,0 +1,24 @@
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#0b1220;
+  color:white;
+}
+
+header{
+  background:#0f172a;
+  padding:20px;
+  text-align:center;
+}
+
+h1{
+  color:#00bfff;
+}
+
+button{
+  background:#00bfff;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:8px;
+}
