@@ -6,7 +6,60 @@
 <title>SR Security System</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<<section class="slider">
+
+  <img class="slide" src="photo1.jpg" style="width:100%;display:block;">
+  <img class="slide" src="photo2.jpg" style="width:100%;display:none;">
+  <img class="slide" src="photo3.jpg" style="width:100%;display:none;">
+
+</section>
+
+<script>
+let slides=document.getElementsByClassName("slide");
+let index=0;
+
+function showSlides(){
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display="none";
+  }
+
+  index++;
+  if(index>slides.length){index=1;}
+
+  slides[index-1].style.display="block";
+
+  setTimeout(showSlides,3000);
+}
+
+showSlides();
+</script>
+  
+
+  <img class="slide" src="photo1.jpg" style="width:100%;display:block;">
+  <img class="slide" src="photo2.jpg" style="width:100%;display:none;">
+  <img class="slide" src="photo3.jpg" style="width:100%;display:none;">
+
+</section>
+
+<script>
+let slides=document.getElementsByClassName("slide");
+let index=0;
+
+function showSlides(){
+  for(let i=0;i<slides.length;i++){
+    slides[i].style.display="none";
+  }
+
+  index++;
+  if(index>slides.length){index=1;}
+
+  slides[index-1].style.display="block";
+
+  setTimeout(showSlides,3000);
+}
+
+showSlides();
+</script>y>
 
 <header style="background:#0a2540;padding:15px;text-align:center;">
 <h1 style="color:#00bfff;">SR SECURITY SYSTEM</h1>
@@ -110,3 +163,15 @@
 <footer>
 ...
 </footer>
+  
+.slider{
+  width:100%;
+  max-width:900px;
+  margin:auto;
+  overflow:hidden;
+}
+
+.slide{
+  border-radius:12px;
+}
+  
