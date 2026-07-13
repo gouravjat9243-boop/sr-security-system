@@ -1,0 +1,9 @@
+{
+  "name": "SR Security System",
+  "short_name": "SR Security",
+  "start_url": "/sr-security-system/",
+  "display": "standalone",
+  "background_color": "#0a2540",
+  "theme_color": "#0a2540",
+  "icons": []
+}
